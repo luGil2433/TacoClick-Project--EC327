@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+    <ImageButton
+        android:id="@+id/TT"
+        android:layout_width="377dp"
+        android:layout_height="315dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/taco2" />
+
+    <ImageButton
+        android:id="@+id/U5"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="40dp"
+
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/image_frame" />
+
+    <ImageButton
+        android:id="@+id/U4"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/U5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/image_frame"/>
+
+    <ImageButton
+        android:id="@+id/U3"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/U4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/image_frame"/>
+
+    <ImageButton
+        android:id="@+id/U2"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/U3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/image_frame" />
+
+    <ImageButton
+        android:id="@+id/U1"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/U2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/image_frame"/>
+
+    <TextView
+        android:id="@+id/TCD"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:background="#f9fcb8"
+        android:text="####"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/RD"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:background="#f9fcb8"
+        android:text="####"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageViewPapaLouis"
+        android:layout_width="79dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="36dp"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509"
+        app:srcCompat="@drawable/gandd" />
+
+    <ImageView
+        android:id="@+id/imageViewChiken"
+        android:layout_width="79dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="36dp"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/chiken4" />
+
+    <ImageView
+        android:id="@+id/imageViewPapaLouisName"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="124dp"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        app:srcCompat="@drawable/chikkken_label" />
+</androidx.constraintlayout.widget.ConstraintLayout>
