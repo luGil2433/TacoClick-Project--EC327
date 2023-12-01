@@ -178,8 +178,7 @@
         android:layout_width="116dp"
         android:layout_height="72dp"
         android:layout_marginTop="32dp"
-        android:background="#f9fcb8"
-        android:text="test:"
+
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="25dp"
@@ -194,8 +193,6 @@
         android:layout_width="116dp"
         android:layout_height="72dp"
         android:layout_marginTop="32dp"
-        android:background="#f9fcb8"
-        android:text="t2est:"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="25dp"
