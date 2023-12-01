@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TacoClick"
         android:name=".MainActivity">
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
 
 
 
