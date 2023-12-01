@@ -107,6 +107,18 @@
 
 
     <ImageView
+        android:id="@+id/imageViewFlipFlops"
+        android:layout_width="37dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="308dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/flipflop"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="@+id/U1"
+        app:layout_constraintTop_toTopOf="@+id/U1" />
+
+    <ImageView
         android:id="@+id/imageViewPapaLouis"
         android:layout_width="119dp"
         android:layout_height="105dp"
@@ -157,4 +169,17 @@
         android:scaleType="center"
         app:layout_constraintEnd_toEndOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U3" />
+
+    <ImageView
+        android:id="@+id/imageViewDragon"
+        android:layout_width="137dp"
+        android:layout_height="92dp"
+
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="243dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/dragon"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="@+id/U5"
+        app:layout_constraintTop_toTopOf="@+id/U4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
