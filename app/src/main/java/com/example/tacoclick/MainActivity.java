@@ -26,8 +26,7 @@ public class MainActivity extends Activity implements OnClickListener {
     public Runnable timing_runnable;
 
     public  ImageButton Taco_tapper;
-    private Button Upgrade_button;
-    private Button Main_button;
+
     public  ImageButton Upgrade_1;
     public ImageButton Upgrade_2;
     public ImageButton Upgrade_3;
@@ -146,4 +145,6 @@ public class MainActivity extends Activity implements OnClickListener {
             timing_handler.postDelayed(timing_runnable,5000);
         }
     }
+
+
 }
