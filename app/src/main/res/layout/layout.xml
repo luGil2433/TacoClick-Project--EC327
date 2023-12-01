@@ -113,11 +113,13 @@
         android:layout_marginStart="16dp"
         android:adjustViewBounds="true"
         android:scaleType="center"
+        android:foreground="@drawable/gandd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/gandd" />
+        app:srcCompat="@drawable/gandd"
+        />
 
     <ImageView
         android:id="@+id/imageViewChiken"
