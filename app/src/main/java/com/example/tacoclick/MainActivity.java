@@ -121,7 +121,12 @@ public class MainActivity extends Activity implements OnClickListener {
         {
                 timing_handle();
                 rate_display.setText(running_upgrades/5 + " tacos made per second");
-        }}
+
+            }
+        }
+
+
+
     private void timing_handle(){
         timing_handler=new Handler();
         timing_runnable= new Runnable(){
