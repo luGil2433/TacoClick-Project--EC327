@@ -16,6 +16,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:background="#00000000"
+        android:foreground="@drawable/taco2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,7 @@
         android:layout_width="381dp"
         android:layout_height="71dp"
         android:layout_marginBottom="40dp"
-
+        android:foreground="@drawable/image_frame"
         android:background="#00000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +39,7 @@
         android:id="@+id/U4"
         android:layout_width="381dp"
         android:layout_height="71dp"
-
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +49,7 @@
         android:id="@+id/U3"
         android:layout_width="381dp"
         android:layout_height="71dp"
-
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +59,7 @@
         android:id="@+id/U2"
         android:layout_width="381dp"
         android:layout_height="71dp"
-
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,11 +70,11 @@
         android:layout_width="381dp"
         android:layout_height="71dp"
 
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/image_frame"
-         />
+        tools:srcCompat="@drawable/image_frame" />
 
     <TextView
         android:id="@+id/TCD"
@@ -129,7 +130,8 @@
         app:layout_constraintStart_toStartOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/chiken4" />
+        app:srcCompat="@drawable/chiken4"
+        android:foreground="@drawable/chiken4"/>
 
     <ImageView
         android:id="@+id/imageViewPapaLouisName"
