@@ -60,9 +60,11 @@ public class MainActivity extends Activity implements OnClickListener {
     }
 
     @Override
+
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.TT:
+        final int IDSwitch= v.getId();
+        switch (IDSwitch){
+            case R.id.U1:
             {
                 total_tacos=total_tacos+1;
                 total_tacos_display.setText(total_tacos + " total tacos");
