@@ -61,79 +61,67 @@ public class MainActivity extends Activity implements OnClickListener {
     @Override
 
     public void onClick(View v) {
-        final int IDSwitch= v.getId();
-        switch (IDSwitch){
-            case R.id.U1:
-            {
-                total_tacos=total_tacos+1;
-                total_tacos_display.setText(total_tacos + " total tacos");
-                break;
-            }
-            case R.id.U1:
-            {
-                if(total_tacos>=Upgrades_1_min){
+        int IDIf= v.getId();
+        if (IDIf==R.id.TT)
+        {
+            total_tacos=total_tacos+1;
+            total_tacos_display.setText(total_tacos + " total tacos");
+        }
+        else if (IDIf==R.id.U1)
+        {
+            if(total_tacos>=Upgrades_1_min){
                     total_tacos=total_tacos-Upgrades_1_min;
                     running_upgrades=running_upgrades +1;
                     total_tacos_display.setText(total_tacos + " total tacos");
                     rate_display.setText(running_upgrades/5 + " tacos made per second");
                     timing_handle();
-                }
-                break;
             }
-            case R.id.U2:
-            {
-                if(total_tacos>=Upgrades_2_min){
+        }
+        else if (IDIf==R.id.U2)
+        {
+            if(total_tacos>=Upgrades_2_min){
                     total_tacos=total_tacos-Upgrades_2_min;
                     running_upgrades=running_upgrades +2;
                     total_tacos_display.setText(total_tacos + " total tacos");
                     rate_display.setText(running_upgrades/5 + " tacos made per second");
                     timing_handle();
-                }
-                break;
             }
-            case R.id.U3:
-            {
-                if(total_tacos>=Upgrades_3_min){
+        }
+        else if (IDIf==R.id.U3)
+        {
+             if(total_tacos>=Upgrades_3_min){
                     total_tacos=total_tacos-Upgrades_3_min;
                     running_upgrades=running_upgrades +3;
                     total_tacos_display.setText(total_tacos + " total tacos");
                     rate_display.setText(running_upgrades/5 + " tacos made per second");
                     timing_handle();
-                }
-                break;
-            }
-            case R.id.U4:
-            {
-                if(total_tacos>=Upgrades_4_min){
+             }
+        }
+        else if (IDIf==R.id.U4)
+        {
+            if(total_tacos>=Upgrades_4_min){
                     total_tacos=total_tacos-Upgrades_4_min;
                     running_upgrades=running_upgrades +4;
                     total_tacos_display.setText(total_tacos + " total tacos");
                     rate_display.setText(running_upgrades/5 + " tacos made per second");
                     timing_handle();
-                }
-                break;
             }
-            case R.id.U5:
-            {
-                if(total_tacos>=Upgrades_5_min){
+        }
+        else if (IDIf==R.id.U5)
+        {
+             if(total_tacos>=Upgrades_5_min){
                     total_tacos=total_tacos-Upgrades_5_min;
                     running_upgrades=running_upgrades +5;
                     total_tacos_display.setText(total_tacos + " total tacos");
                     rate_display.setText(running_upgrades/5 + " tacos made per second");
                     timing_handle();
-                }
-                break;
-            }
-            default:
-            {
+             }
+        }
+        else
+        {
                 timing_handle();
                 rate_display.setText(running_upgrades/5 + " tacos made per second");
-                break;
-            }
-        }
-
-
-    }
+        }}
     private void timing_handle(){
         timing_handler=new Handler();
         timing_runnable= () -> {
