@@ -5,8 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    >
+    android:background="@drawable/background">
 
 
     <ImageButton
@@ -28,8 +27,8 @@
         android:layout_width="381dp"
         android:layout_height="71dp"
         android:layout_marginBottom="40dp"
-        android:foreground="@drawable/image_frame"
         android:background="#00000000"
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,6 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/RD"
         android:layout_width="123dp"
@@ -108,32 +108,28 @@
 
     <ImageView
         android:id="@+id/imageViewPapaLouis"
-        android:layout_width="79dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="119dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="264dp"
         android:adjustViewBounds="true"
-        android:scaleType="center"
         android:foreground="@drawable/gandd"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/U2"
-        app:layout_constraintTop_toTopOf="@+id/U2"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/gandd"
-        />
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="@+id/U2"
+        app:layout_constraintTop_toTopOf="@+id/U1" />
 
     <ImageView
         android:id="@+id/imageViewChiken"
-        android:layout_width="79dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
         android:adjustViewBounds="true"
+        android:foreground="@drawable/chiken4"
         android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/chiken4"
-        android:foreground="@drawable/chiken4"/>
+        app:layout_constraintVertical_bias="0.05" />
 
     <ImageView
         android:id="@+id/imageViewPapaLouisName"
@@ -142,24 +138,23 @@
         android:layout_marginStart="116dp"
         android:layout_marginTop="6dp"
         android:adjustViewBounds="true"
+        android:foreground="@drawable/chikkken_label"
         android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3"
-        app:layout_constraintVertical_bias="0.018"
-        app:srcCompat="@drawable/chikkken_label" />
+        app:layout_constraintVertical_bias="0.018" />
 
     <ImageView
         android:id="@+id/imageViewPinaple"
-        android:layout_width="69dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="9dp"
+        android:layout_width="68dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="290dp"
+
         android:adjustViewBounds="true"
+        android:foreground="@drawable/pinaple"
         android:scaleType="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/U4"
-        app:layout_constraintTop_toTopOf="@+id/U4"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/pinaple" />
+        app:layout_constraintEnd_toEndOf="@+id/U4"
+        app:layout_constraintTop_toTopOf="@+id/U3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
