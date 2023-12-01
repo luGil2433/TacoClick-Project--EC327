@@ -11,6 +11,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener {
+
+
     private int total_tacos;
     private int running_upgrades;
     private TextView rate_display;
@@ -21,20 +23,24 @@ public class MainActivity extends Activity implements OnClickListener {
     private static final int Upgrades_4_min=200;
     private static final int Upgrades_5_min=300;
     private Handler timing_handler;
-    private Runnable timing_runnable;
+    public Runnable timing_runnable;
 
-    private ImageButton Taco_tapper;
+    public  ImageButton Taco_tapper;
     private Button Upgrade_button;
     private Button Main_button;
-    private ImageButton Upgrade_1;
-    private ImageButton Upgrade_2;
-    private ImageButton Upgrade_3;
-    private ImageButton Upgrade_4;
-    private ImageButton Upgrade_5;
+    public  ImageButton Upgrade_1;
+    public ImageButton Upgrade_2;
+    public ImageButton Upgrade_3;
+    public ImageButton Upgrade_4;
+    public ImageButton Upgrade_5;
+
+    public MainActivity() {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.layout);
 
         Taco_tapper = (ImageButton) findViewById(R.id.TT);
         Upgrade_1 = (ImageButton) findViewById(R.id.U1);
