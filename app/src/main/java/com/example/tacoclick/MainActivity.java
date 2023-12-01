@@ -124,11 +124,12 @@ public class MainActivity extends Activity implements OnClickListener {
         }}
     private void timing_handle(){
         timing_handler=new Handler();
-        timing_runnable= () -> {
+        timing_runnable= new Runnable(){
+            public void run(){
             total_tacos=total_tacos +running_upgrades;
             total_tacos_display.setText(total_tacos + " total tacos");
-            timing_handler.postDelayed(this::run,5000);
-        };
+            timing_handler.postDelayed(timing_runnable,5000);
+        }};
         if (!timing_handler.hasCallbacks(timing_runnable)){
             timing_handler.postDelayed(timing_runnable,5000);
         }
