@@ -13,11 +13,11 @@
         android:layout_width="382dp"
         android:layout_height="292dp"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="36dp"
         android:background="#00000000"
         android:foreground="@drawable/taco2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/taco2" />
@@ -61,8 +61,8 @@
         android:id="@+id/U2"
         android:layout_width="381dp"
         android:layout_height="71dp"
-        android:foreground="@drawable/image_frame"
         android:layout_marginBottom="5dp"
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,8 +73,8 @@
         android:layout_width="381dp"
         android:layout_height="71dp"
 
-        android:foreground="@drawable/image_frame"
         android:layout_marginBottom="5dp"
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -187,4 +187,41 @@
         android:scaleType="center"
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U4" />
+
+    <ImageView
+        android:id="@+id/imageViewFrameMain"
+        android:layout_width="0dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/mainframe"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Tacoframe"
+        android:layout_width="0dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/tacos"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/TacosPerSecond"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/tacospersecond"
+        android:scaleType="center"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="36dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
