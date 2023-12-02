@@ -195,8 +195,8 @@
 
     <TextView
         android:id="@+id/TCD"
-        android:layout_width="157dp"
-        android:layout_height="72dp"
+        android:layout_width="252dp"
+        android:layout_height="30dp"
         android:layout_marginTop="16dp"
 
         android:textAlignment="center"
@@ -204,21 +204,20 @@
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/RD"
-        android:layout_width="116dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.793"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

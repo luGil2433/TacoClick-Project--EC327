@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_1_min;
                     running_upgrades=running_upgrades +1;
                     total_tacos_display.setText(total_tacos + " total tacos");
-                    rate_display.setText(running_upgrades/5 + " tacos made per second");
+                    rate_display.setText(running_upgrades/5.0 + " tacos per second");
                     timing_handle();
             }
         }
@@ -83,7 +83,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_2_min;
                     running_upgrades=running_upgrades +2;
                     total_tacos_display.setText(total_tacos + " total tacos");
-                    rate_display.setText(running_upgrades/5 + " tacos made per second");
+                    rate_display.setText(running_upgrades/5.0 + " tacos per second");
                     timing_handle();
             }
         }
@@ -93,7 +93,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_3_min;
                     running_upgrades=running_upgrades +3;
                     total_tacos_display.setText(total_tacos + " total tacos");
-                    rate_display.setText(running_upgrades/5 + " tacos made per second");
+                    rate_display.setText(running_upgrades/5.0 + " tacos per second");
                     timing_handle();
              }
         }
@@ -103,7 +103,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_4_min;
                     running_upgrades=running_upgrades +4;
                     total_tacos_display.setText(total_tacos + " total tacos");
-                    rate_display.setText(running_upgrades/5 + " tacos made per second");
+                    rate_display.setText(running_upgrades/5.0 + " tacos per second");
                     timing_handle();
             }
         }
@@ -113,14 +113,14 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_5_min;
                     running_upgrades=running_upgrades +5;
                     total_tacos_display.setText(total_tacos + " total tacos");
-                    rate_display.setText(running_upgrades/5 + " tacos made per second");
+                    rate_display.setText(running_upgrades/5.0 + " tacos per second");
                     timing_handle();
              }
         }
         else
         {
                 timing_handle();
-                rate_display.setText(running_upgrades/5 + " tacos made per second");
+                rate_display.setText(running_upgrades/5.0 + " tacos per second");
 
             }
         }
