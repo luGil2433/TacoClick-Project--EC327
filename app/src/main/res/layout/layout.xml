@@ -267,5 +267,85 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/U5" />
 
+    <TextView
+        android:id="@+id/PU1"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/U1"
+        app:layout_constraintTop_toTopOf="@+id/U1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/PU2"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/U2"
+        app:layout_constraintTop_toTopOf="@+id/U2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/PU3"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="1K"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/U3"
+        app:layout_constraintTop_toTopOf="@+id/U3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/PU4"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="1M"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/U4"
+        app:layout_constraintTop_toTopOf="@+id/U4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/PU5"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="23dp"
+        android:text="1B"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/U5"
+        app:layout_constraintTop_toTopOf="@+id/U5"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
