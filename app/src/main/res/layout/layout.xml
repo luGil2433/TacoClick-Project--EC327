@@ -23,6 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/taco2" />
 
+
     <ImageButton
         android:id="@+id/U5"
         android:layout_width="381dp"
@@ -36,6 +37,18 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="174dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="120dp"
+        android:foreground="@drawable/dragonname"
+
+        app:layout_constraintEnd_toEndOf="@+id/U5"
+        app:layout_constraintTop_toTopOf="@+id/U5" />
 
     <ImageButton
         android:id="@+id/U4"
@@ -116,7 +129,7 @@
         android:id="@+id/imageViewPapaLouisName"
         android:layout_width="143dp"
         android:layout_height="31dp"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="96dp"
         android:layout_marginTop="6dp"
         android:adjustViewBounds="true"
         android:foreground="@drawable/papalouis_name"
@@ -143,7 +156,7 @@
         android:id="@+id/imageViewChikenName"
         android:layout_width="143dp"
         android:layout_height="31dp"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="96dp"
         android:layout_marginTop="6dp"
         android:adjustViewBounds="true"
         android:foreground="@drawable/chikkken_label"
@@ -151,7 +164,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintVertical_bias="0.014" />
 
     <ImageView
         android:id="@+id/imageViewPinaple"
@@ -168,11 +181,11 @@
 
     <ImageView
         android:id="@+id/imageViewDragon"
-        android:layout_width="137dp"
-        android:layout_height="92dp"
+        android:layout_width="125dp"
+        android:layout_height="81dp"
 
-        android:layout_marginTop="71dp"
-        android:layout_marginEnd="243dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="264dp"
         android:adjustViewBounds="true"
         android:foreground="@drawable/dragon"
         android:scaleType="center"
@@ -237,60 +250,50 @@
         android:id="@+id/imageView"
         android:layout_width="178dp"
         android:layout_height="31dp"
-        android:layout_marginStart="101dp"
+        android:layout_marginStart="72dp"
         android:layout_marginBottom="23dp"
         android:foreground="@drawable/flipflopname"
         app:layout_constraintBottom_toBottomOf="@+id/U1"
         app:layout_constraintStart_toStartOf="@+id/U1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.988" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="193dp"
         android:layout_height="30dp"
-        android:layout_marginStart="91dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
         android:foreground="@drawable/pinaplename"
         app:layout_constraintStart_toStartOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="175dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="11dp"
-        android:foreground="@drawable/dragonname"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toEndOf="@+id/U5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/U5" />
+
 
     <TextView
         android:id="@+id/UD1"
         android:layout_width="79dp"
         android:layout_height="24dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="23dp"
-        android:textAlignment = "textEnd"
+        android:layout_marginEnd="120dp"
+        android:text="10 Tacos"
+        android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
-        android:text="10 Tacos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.041" />
 
     <TextView
         android:id="@+id/UD2"
         android:layout_width="101dp"
         android:layout_height="28dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="116dp"
         android:text="100 Tacos"
-        android:textAlignment = "textEnd"
+        android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
@@ -304,48 +307,48 @@
         android:layout_width="97dp"
         android:layout_height="26dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="116dp"
         android:text="1000 Tacos"
-        android:textAlignment = "textEnd"
+        android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.059" />
 
     <TextView
         android:id="@+id/UD4"
         android:layout_width="115dp"
         android:layout_height="26dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="120dp"
         android:text="10000 Tacos"
-        android:textAlignment = "textEnd"
+        android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.081" />
 
     <TextView
         android:id="@+id/UD5"
         android:layout_width="122dp"
         android:layout_height="27dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginEnd="120dp"
         android:text="100000 Tacos"
-        android:textAlignment = "textEnd"
+        android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U5"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.235" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
