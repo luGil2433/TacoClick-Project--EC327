@@ -193,6 +193,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageViewBlackLine"
+        android:layout_width="473dp"
+        android:layout_height="5dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/blackline__"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
     <TextView
         android:id="@+id/TCD"
         android:layout_width="252dp"
@@ -218,6 +229,7 @@
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
