@@ -64,6 +64,10 @@ public class MainActivity extends Activity implements OnClickListener {
         int IDIf= v.getId();
         if (IDIf==R.id.TT)
         {
+            //playing click sound effect
+            MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.click_sfx);
+            mp.start();
+
             total_tacos=total_tacos+1;
             total_tacos_display.setText(total_tacos + " total tacos");
         }
