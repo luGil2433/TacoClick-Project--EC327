@@ -22,8 +22,8 @@ public class MainActivity extends Activity implements OnClickListener {
     private static final int Upgrades_3_min=100;
     private static final int Upgrades_4_min=200;
     private static final int Upgrades_5_min=300;
-    private Handler timing_handler;
-    public Runnable timing_runnable;
+    private Handler rate_handler;
+    public Runnable rate_runnable;
 
     public  ImageButton Taco_tapper;
 
