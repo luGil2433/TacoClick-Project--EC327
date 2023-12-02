@@ -224,37 +224,37 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="176dp"
-        android:layout_height="39dp"
+        android:layout_width="178dp"
+        android:layout_height="31dp"
         android:layout_marginStart="101dp"
         android:layout_marginBottom="23dp"
+        android:foreground="@drawable/flipflopname"
         app:layout_constraintBottom_toBottomOf="@+id/U1"
         app:layout_constraintStart_toStartOf="@+id/U1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/flipflopname" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="185dp"
-        android:layout_height="37dp"
+        android:layout_width="193dp"
+        android:layout_height="30dp"
         android:layout_marginStart="91dp"
         android:layout_marginTop="9dp"
+        android:foreground="@drawable/pinaplename"
         app:layout_constraintStart_toStartOf="@+id/U4"
-        app:layout_constraintTop_toTopOf="@+id/U4"
-        app:srcCompat="@drawable/pinaplename" />
+        app:layout_constraintTop_toTopOf="@+id/U4" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="166dp"
-        android:layout_height="39dp"
+        android:layout_width="175dp"
+        android:layout_height="27dp"
         android:layout_marginTop="11dp"
+        android:foreground="@drawable/dragonname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toEndOf="@+id/U5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/U5"
-        app:srcCompat="@drawable/dragonname" />
+        app:layout_constraintTop_toTopOf="@+id/U5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
