@@ -87,7 +87,6 @@
 
 
 
-
     <ImageView
         android:id="@+id/imageViewFlipFlops"
         android:layout_width="37dp"
@@ -182,8 +181,8 @@
 
     <ImageView
         android:id="@+id/imageViewFrameMain"
-        android:layout_width="0dp"
-        android:layout_height="107dp"
+        android:layout_width="403dp"
+        android:layout_height="96dp"
         android:layout_marginStart="38dp"
         android:layout_marginEnd="38dp"
         android:adjustViewBounds="true"
@@ -206,15 +205,15 @@
 
     <TextView
         android:id="@+id/TCD"
-        android:layout_width="252dp"
-        android:layout_height="30dp"
+        android:layout_width="365dp"
+        android:layout_height="32dp"
         android:layout_marginTop="16dp"
 
+        android:text="0 Tacos"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:text="0 Tacos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -222,16 +221,15 @@
 
     <TextView
         android:id="@+id/RD"
-        android:layout_width="297dp"
-        android:layout_height="46dp"
+        android:layout_width="365dp"
+        android:layout_height="35dp"
         android:layout_marginTop="44dp"
+        android:text="0 Tacos Per Second"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:text="0.0 Tacos Per Second"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -275,7 +273,7 @@
         android:layout_height="24dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
-        android:textAlignment="center"
+        android:textAlignment = "textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
@@ -292,7 +290,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
         android:text="100 Tacos"
-        android:textAlignment="center"
+        android:textAlignment = "textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
@@ -308,7 +306,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
         android:text="1000 Tacos"
-        android:textAlignment="center"
+        android:textAlignment = "textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
@@ -319,12 +317,12 @@
 
     <TextView
         android:id="@+id/UD4"
-        android:layout_width="92dp"
-        android:layout_height="28dp"
+        android:layout_width="115dp"
+        android:layout_height="26dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
         android:text="10000 Tacos"
-        android:textAlignment="center"
+        android:textAlignment = "textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
@@ -335,12 +333,12 @@
 
     <TextView
         android:id="@+id/UD5"
-        android:layout_width="102dp"
-        android:layout_height="28dp"
+        android:layout_width="122dp"
+        android:layout_height="27dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="23dp"
         android:text="100000 Tacos"
-        android:textAlignment="center"
+        android:textAlignment = "textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15dp"
         android:textStyle="bold"
