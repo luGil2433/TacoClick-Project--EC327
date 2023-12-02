@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.media.MediaPlayer;
 
@@ -130,6 +132,8 @@ public class MainActivity extends Activity implements OnClickListener {
             total_tacos=total_tacos+1;
             total_tacos_display.setText(total_tacos + " Tacos");
             song.start();
+            Animation animation=AnimationUtils.loadAnimation(MainActivity.this,R.anim.bounce);
+            Taco_tapper.startAnimation(animation);
         }
         else if (IDIf==R.id.U1)
         {
