@@ -128,15 +128,19 @@ public class MainActivity extends Activity implements OnClickListener {
 
 
     private void timing_handle(){
-        timing_handler=new Handler();
-        timing_runnable= new Runnable(){
+       if (rate_handler!=null)
+       {
+           rate_handler.removeCallbacks(rate_runnable);
+       }
+        rate_handler=new Handler();
+        rate_runnable= new Runnable(){
             public void run(){
             total_tacos=total_tacos +running_upgrades;
             total_tacos_display.setText(total_tacos + " total tacos");
-            timing_handler.postDelayed(timing_runnable,5000);
+            rate_handler.postDelayed(rate_runnable,5000);
         }};
-        if (!timing_handler.hasCallbacks(timing_runnable)){
-            timing_handler.postDelayed(timing_runnable,5000);
+        if (!rate_handler.hasCallbacks(rate_runnable)){
+            rate_handler.postDelayed(rate_runnable,5000);
         }
     }
 
