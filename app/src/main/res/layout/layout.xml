@@ -16,6 +16,7 @@
         android:layout_marginTop="36dp"
         android:background="#00000000"
         android:foreground="@drawable/taco2"
+        android:contentDescription="update 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +29,7 @@
         android:layout_height="71dp"
         android:layout_marginBottom="20dp"
         android:background="#00000000"
+        android:contentDescription="update 1"
         android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +42,7 @@
         android:layout_width="381dp"
         android:layout_height="71dp"
         android:layout_marginBottom="5dp"
+        android:contentDescription="update 1"
         android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,6 +57,7 @@
         android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U4"
         app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="update 1"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
@@ -64,6 +68,7 @@
         android:layout_marginBottom="5dp"
         android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U3"
+        android:contentDescription="update 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
@@ -72,7 +77,7 @@
         android:id="@+id/U1"
         android:layout_width="381dp"
         android:layout_height="71dp"
-
+        android:contentDescription="update 1"
         android:layout_marginBottom="5dp"
         android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U2"
@@ -92,6 +97,7 @@
         android:adjustViewBounds="true"
         android:foreground="@drawable/flipflop"
         android:scaleType="center"
+
         app:layout_constraintEnd_toEndOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
@@ -108,6 +114,20 @@
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
     <ImageView
+        android:id="@+id/imageViewPapaLouisName"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/papalouis_name"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/U2"
+        app:layout_constraintTop_toTopOf="@+id/U2"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <ImageView
         android:id="@+id/imageViewChiken"
         android:layout_width="50dp"
         android:layout_height="53dp"
@@ -121,7 +141,7 @@
         app:layout_constraintVertical_bias="0.05" />
 
     <ImageView
-        android:id="@+id/imageViewPapaLouisName"
+        android:id="@+id/imageViewChikenName"
         android:layout_width="143dp"
         android:layout_height="31dp"
         android:layout_marginStart="116dp"
