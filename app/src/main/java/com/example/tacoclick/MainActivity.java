@@ -72,6 +72,7 @@ public class MainActivity extends Activity implements OnClickListener {
         Upgrade_5.setOnClickListener(this);
 
 
+
     }
 
     @Override
@@ -81,99 +82,102 @@ public class MainActivity extends Activity implements OnClickListener {
         if (IDIf==R.id.TT)
         {
             //playing click sound effect
-           // MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.click_sfx);
-          //  mp.start();
+            // MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.click_sfx);
+            //  mp.start();
 
             total_tacos=total_tacos+1;
             total_tacos_display.setText(total_tacos + " Tacos");
+
+            Animation animation=AnimationUtils.loadAnimation(MainActivity.this,R.anim.bounce);
+            Taco_tapper.startAnimation(animation);
         }
         else if (IDIf==R.id.U1)
         {
             if(total_tacos>=Upgrades_1_min){
-                    total_tacos=total_tacos-Upgrades_1_min;
-                    running_upgrades=running_upgrades +5;
-                    Upgrades_1_min=Upgrades_1_min+10;
-                    total_tacos_display.setText(total_tacos + " Tacos");
-                    rate_display.setText(running_upgrades/5 + " Tacos per second");
-                    upgrade_display1.setText(Upgrades_1_min+ " Tacos");
+                total_tacos=total_tacos-Upgrades_1_min;
+                running_upgrades=running_upgrades +5;
+                Upgrades_1_min=Upgrades_1_min+10;
+                total_tacos_display.setText(total_tacos + " Tacos");
+                rate_display.setText(running_upgrades/5 + " Tacos per second");
+                upgrade_display1.setText(Upgrades_1_min+ " Tacos");
 
-                    timing_handle();
+                timing_handle();
             }
         }
         else if (IDIf==R.id.U2)
         {
             if(total_tacos>=Upgrades_2_min){
-                    total_tacos=total_tacos-Upgrades_2_min;
-                    running_upgrades=running_upgrades +50;
-                    Upgrades_2_min=Upgrades_2_min+100;
-                    total_tacos_display.setText(total_tacos + " Tacos");
-                    rate_display.setText(running_upgrades/5 + " Tacos per second");
-                    upgrade_display2.setText(Upgrades_2_min+ " Tacos");
+                total_tacos=total_tacos-Upgrades_2_min;
+                running_upgrades=running_upgrades +50;
+                Upgrades_2_min=Upgrades_2_min+100;
+                total_tacos_display.setText(total_tacos + " Tacos");
+                rate_display.setText(running_upgrades/5 + " Tacos per second");
+                upgrade_display2.setText(Upgrades_2_min+ " Tacos");
 
-                    timing_handle();
+                timing_handle();
             }
         }
         else if (IDIf==R.id.U3)
         {
-             if(total_tacos>=Upgrades_3_min){
-                    total_tacos=total_tacos-Upgrades_3_min;
-                    running_upgrades=running_upgrades +500;
-                    Upgrades_3_min=Upgrades_3_min+1000;
-                    total_tacos_display.setText(total_tacos + " Tacos");
-                    rate_display.setText(running_upgrades/5 + " Tacos per second");
-                    upgrade_display3.setText(Upgrades_3_min+ " Tacos");
+            if(total_tacos>=Upgrades_3_min){
+                total_tacos=total_tacos-Upgrades_3_min;
+                running_upgrades=running_upgrades +500;
+                Upgrades_3_min=Upgrades_3_min+1000;
+                total_tacos_display.setText(total_tacos + " Tacos");
+                rate_display.setText(running_upgrades/5 + " Tacos per second");
+                upgrade_display3.setText(Upgrades_3_min+ " Tacos");
 
-                    timing_handle();
-             }
+                timing_handle();
+            }
         }
         else if (IDIf==R.id.U4)
         {
             if(total_tacos>=Upgrades_4_min){
-                    total_tacos=total_tacos-Upgrades_4_min;
-                    running_upgrades=running_upgrades +5000;
-                    Upgrades_4_min=Upgrades_4_min+10000;
-                    total_tacos_display.setText(total_tacos + " Tacos");
-                    rate_display.setText(running_upgrades/5 + " Tacos per second");
-                    upgrade_display4.setText(Upgrades_4_min+ " Tacos");
+                total_tacos=total_tacos-Upgrades_4_min;
+                running_upgrades=running_upgrades +5000;
+                Upgrades_4_min=Upgrades_4_min+10000;
+                total_tacos_display.setText(total_tacos + " Tacos");
+                rate_display.setText(running_upgrades/5 + " Tacos per second");
+                upgrade_display4.setText(Upgrades_4_min+ " Tacos");
 
-                    timing_handle();
+                timing_handle();
             }
         }
         else if (IDIf==R.id.U5)
         {
-             if(total_tacos>=Upgrades_5_min){
-                    total_tacos=total_tacos-Upgrades_5_min;
-                    running_upgrades=running_upgrades +50000;
-                    Upgrades_5_min=Upgrades_5_min+100000;
-                    total_tacos_display.setText(total_tacos + " Tacos");
-                    rate_display.setText(running_upgrades/5 + " Tacos per second");
-                    upgrade_display5.setText(Upgrades_5_min+ " Tacos");
+            if(total_tacos>=Upgrades_5_min){
+                total_tacos=total_tacos-Upgrades_5_min;
+                running_upgrades=running_upgrades +50000;
+                Upgrades_5_min=Upgrades_5_min+100000;
+                total_tacos_display.setText(total_tacos + " Tacos");
+                rate_display.setText(running_upgrades/5 + " Tacos per second");
+                upgrade_display5.setText(Upgrades_5_min+ " Tacos");
 
-                    timing_handle();
-             }
+                timing_handle();
+            }
         }
         else
         {
-                timing_handle();
-                rate_display.setText(running_upgrades/5 + " Tacos per second");
+            timing_handle();
+            rate_display.setText(running_upgrades/5 + " Tacos per second");
 
-            }
         }
+    }
 
 
 
     private void timing_handle(){
-       if (rate_handler!=null)
-       {
-           rate_handler.removeCallbacks(rate_runnable);
-       }
+        if (rate_handler!=null)
+        {
+            rate_handler.removeCallbacks(rate_runnable);
+        }
         rate_handler=new Handler();
         rate_runnable= new Runnable(){
             public void run(){
-            total_tacos=total_tacos +running_upgrades;
-            total_tacos_display.setText(total_tacos + " total tacos");
-            rate_handler.postDelayed(rate_runnable,5000);
-        }};
+                total_tacos=total_tacos +running_upgrades;
+                total_tacos_display.setText(total_tacos + " total tacos");
+                rate_handler.postDelayed(rate_runnable,5000);
+            }};
         if (!rate_handler.hasCallbacks(rate_runnable)){
             rate_handler.postDelayed(rate_runnable,5000);
         }
