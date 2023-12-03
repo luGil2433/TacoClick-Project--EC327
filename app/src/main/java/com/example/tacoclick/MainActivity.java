@@ -161,6 +161,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     upgrade_display1.setText("Price "+ Upgrades_1_min+ " Tacos");
                     upgrade_display1_count.setText(""+(Upgrades_1_min-10)/10);
 
+
                     timing_handle();
             }
         }
@@ -244,6 +245,33 @@ public class MainActivity extends Activity implements OnClickListener {
             public void run(){
             total_tacos=total_tacos +running_upgrades;
             total_tacos_display.setText(total_tacos + " total tacos");
+
+            if(total_tacos < Upgrades_1_min){
+                upgrade_display1_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display1_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_2_min){
+                upgrade_display2_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display2_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_3_min){
+                upgrade_display3_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display3_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_4_min){
+                upgrade_display4_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display4_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_5_min){
+                upgrade_display5_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display5_count.setTextColor(0xff00ff00);}
+
+
             rate_handler.postDelayed(rate_runnable,5000);
         }};
         if (!rate_handler.hasCallbacks(rate_runnable)){
