@@ -401,7 +401,7 @@
         app:layout_constraintTop_toTopOf="@+id/U3" />
 
     <TextView
-        android:id="@+id/count1"
+        android:id="@+id/UDC1"
         android:layout_width="35dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
@@ -413,8 +413,9 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1" />
+
     <TextView
-        android:id="@+id/count2"
+        android:id="@+id/UDC2"
         android:layout_width="35dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
@@ -426,5 +427,47 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2" />
+
+    <TextView
+        android:id="@+id/UDC3"
+        android:layout_width="35dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="14dp"
+        android:text=" 9"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/U3"
+        app:layout_constraintTop_toTopOf="@+id/U3" />
+
+    <TextView
+        android:id="@+id/UDC4"
+        android:layout_width="35dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="14dp"
+        android:text=" 9"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/U4"
+        app:layout_constraintTop_toTopOf="@+id/U4" />
+
+    <TextView
+        android:id="@+id/UDC5"
+        android:layout_width="35dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="14dp"
+        android:text=" 9"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/U5"
+        app:layout_constraintTop_toTopOf="@+id/U5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
