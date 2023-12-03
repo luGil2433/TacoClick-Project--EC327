@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background">
 
-
+<!--test-->
     <ImageButton
         android:id="@+id/TT"
         android:layout_width="382dp"
@@ -23,39 +23,26 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/taco2" />
 
-
     <ImageButton
-        android:id="@+id/U5"
-        android:layout_width="381dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="20dp"
-        android:background="#00000000"
-        android:contentDescription="@string/test"        android:foreground="@drawable/image_frame"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/image_frame" />
-
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="174dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="104dp"
-        android:contentDescription="@string/test"
-        android:foreground="@drawable/dragonname"
-        app:layout_constraintEnd_toEndOf="@+id/U5"
-        app:layout_constraintTop_toTopOf="@+id/U5" />
-
-    <ImageButton
-        android:id="@+id/U4"
+        android:id="@+id/U1"
         android:layout_width="381dp"
         android:layout_height="71dp"
         android:layout_marginBottom="5dp"
-        android:contentDescription="@string/test"        android:foreground="@drawable/image_frame"
-        app:layout_constraintBottom_toTopOf="@+id/U5"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/image_frame"
+        app:layout_constraintBottom_toTopOf="@+id/U2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/image_frame" />
+
+    <ImageButton
+        android:id="@+id/U2"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/image_frame"
+        app:layout_constraintBottom_toTopOf="@+id/U3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
@@ -74,28 +61,97 @@
         tools:srcCompat="@drawable/image_frame" />
 
     <ImageButton
-        android:id="@+id/U2"
+        android:id="@+id/U4"
         android:layout_width="381dp"
         android:layout_height="71dp"
         android:layout_marginBottom="5dp"
         android:contentDescription="@string/test"
         android:foreground="@drawable/image_frame"
-        app:layout_constraintBottom_toTopOf="@+id/U3"
+        app:layout_constraintBottom_toTopOf="@+id/U5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
     <ImageButton
-        android:id="@+id/U1"
+        android:id="@+id/U5"
         android:layout_width="381dp"
         android:layout_height="71dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00000000"
         android:contentDescription="@string/test"
         android:foreground="@drawable/image_frame"
-        app:layout_constraintBottom_toTopOf="@+id/U2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="178dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="23dp"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/flipflopname"
+        app:layout_constraintBottom_toBottomOf="@+id/U1"
+        app:layout_constraintStart_toStartOf="@+id/U1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+
+    <ImageView
+        android:id="@+id/imageViewPapaLouisName"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/papalouis_name"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/U2"
+        app:layout_constraintTop_toTopOf="@+id/U2"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:id="@+id/imageViewChikenName"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/chikkken_label"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/U3"
+        app:layout_constraintTop_toTopOf="@+id/U3"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="196dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/pinaplename"
+        app:layout_constraintStart_toStartOf="@+id/U4"
+        app:layout_constraintTop_toTopOf="@+id/U4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="174dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="104dp"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/dragonname"
+        app:layout_constraintEnd_toEndOf="@+id/U5"
+        app:layout_constraintTop_toTopOf="@+id/U5" />
+
 
 
     <ImageView
@@ -124,22 +180,6 @@
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
-
-    <ImageView
-        android:id="@+id/imageViewPapaLouisName"
-        android:layout_width="143dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="6dp"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/test"
-        android:foreground="@drawable/papalouis_name"
-        android:scaleType="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/U2"
-        app:layout_constraintTop_toTopOf="@+id/U2"
-        app:layout_constraintVertical_bias="0.025" />
-
     <ImageView
         android:id="@+id/imageViewChiken"
         android:layout_width="50dp"
@@ -155,19 +195,17 @@
         app:layout_constraintVertical_bias="0.047" />
 
     <ImageView
-        android:id="@+id/imageViewChikenName"
-        android:layout_width="143dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="6dp"
+        android:id="@+id/imageViewPinaple"
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="268dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
-        android:foreground="@drawable/chikkken_label"
+        android:foreground="@drawable/pinaple2"
         android:scaleType="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/U3"
-        app:layout_constraintTop_toTopOf="@+id/U3"
-        app:layout_constraintVertical_bias="0.014" />
+        app:layout_constraintEnd_toEndOf="@+id/U4"
+        app:layout_constraintTop_toTopOf="@+id/U3" />
 
     <ImageView
         android:id="@+id/imageViewDragon"
@@ -181,6 +219,7 @@
         android:scaleType="center"
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U4" />
+
 
     <ImageView
         android:id="@+id/imageViewFrameMain"
@@ -196,24 +235,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageViewBlackLine"
-        android:layout_width="473dp"
-        android:layout_height="5dp"
-        android:adjustViewBounds="true"
-        android:foreground="@drawable/blackline__"
-        android:scaleType="center"
-        android:contentDescription="@string/test"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/TCD"
         android:layout_width="365dp"
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
-
         android:text="0 Tacos"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -238,30 +266,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="178dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginBottom="23dp"
-        android:contentDescription="@string/test"
-        android:foreground="@drawable/flipflopname"
-        app:layout_constraintBottom_toBottomOf="@+id/U1"
-        app:layout_constraintStart_toStartOf="@+id/U1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="196dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="12dp"
-        android:contentDescription="@string/test"
-        android:foreground="@drawable/pinaplename"
-        app:layout_constraintStart_toStartOf="@+id/U4"
-        app:layout_constraintTop_toTopOf="@+id/U4" />
 
     <TextView
         android:id="@+id/UD1"
@@ -294,35 +298,6 @@
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2"
         app:layout_constraintVertical_bias="0.053" />
-
-    <TextView
-        android:id="@+id/D1"
-        android:layout_width="83dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:text="+10 \n Tacos/Sec"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/U1"
-        app:layout_constraintTop_toTopOf="@+id/U1" />
-
-    <TextView
-        android:id="@+id/D2"
-        android:layout_width="85dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="16dp"
-        android:text="+10 \n Tacos/Sec"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/U1"
-        app:layout_constraintTop_toTopOf="@+id/U1" />
-
 
     <TextView
         android:id="@+id/UD3"
@@ -375,6 +350,35 @@
         app:layout_constraintVertical_bias="0.38" />
 
     <TextView
+        android:id="@+id/D1"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="+10 \n Tacos/Sec"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/U1"
+        app:layout_constraintTop_toTopOf="@+id/U1" />
+
+    <TextView
+        android:id="@+id/D2"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:text="+10 \n Tacos/Sec"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/U1"
+        app:layout_constraintTop_toTopOf="@+id/U1" />
+
+
+    <TextView
         android:id="@+id/D3"
         android:layout_width="85dp"
         android:layout_height="36dp"
@@ -416,18 +420,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4" />
 
-    <ImageView
-        android:id="@+id/imageViewPinaple"
-        android:layout_width="52dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="268dp"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/test"
-        android:foreground="@drawable/pinaple2"
-        android:scaleType="center"
-        app:layout_constraintEnd_toEndOf="@+id/U4"
-        app:layout_constraintTop_toTopOf="@+id/U3" />
+
 
     <TextView
         android:id="@+id/UDC1"
@@ -498,5 +491,17 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U5" />
+
+    <ImageView
+        android:id="@+id/imageViewBlackLine"
+        android:layout_width="473dp"
+        android:layout_height="5dp"
+        android:adjustViewBounds="true"
+        android:foreground="@drawable/blackline__"
+        android:scaleType="center"
+        android:contentDescription="@string/test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
