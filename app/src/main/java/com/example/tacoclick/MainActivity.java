@@ -1,6 +1,6 @@
 package com.example.tacoclick;
 
-
+// Import necessary Android components
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,19 +13,21 @@ import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.media.MediaPlayer;
 
+// MainActivity class definition
 public class MainActivity extends Activity implements OnClickListener {
 
-
+    // Variables to track tacos and upgrades
     private int total_tacos;
     private int running_upgrades;
 
-
+    // Constants representing minimum requirements for upgrades
     private static  int Upgrades_1_min =10;
     private static  int Upgrades_2_min =100;
     private static  int Upgrades_3_min=1000;
     private static  int Upgrades_4_min=10000;
     private static  int Upgrades_5_min=100000;
 
+    // Text views to display various information
     private TextView rate_display;
     private TextView total_tacos_display;
     private TextView upgrade_display1;
@@ -39,15 +41,18 @@ public class MainActivity extends Activity implements OnClickListener {
     private TextView upgrade_display4_count;
     private TextView upgrade_display5_count;
 
+    // Media players for different sounds
     private MediaPlayer song;
     private MediaPlayer song2;
     private MediaPlayer song3;
     private MediaPlayer song4;
     private MediaPlayer song5;
 
+    // Handler and Runnable for timing upgrade production rates
     private Handler rate_handler;
     public Runnable rate_runnable;
 
+    // ImageButtons for tapping and purchasing upgrades
     public  ImageButton Taco_tapper;
     public  ImageButton Upgrade_1;
     public ImageButton Upgrade_2;
@@ -55,15 +60,18 @@ public class MainActivity extends Activity implements OnClickListener {
     public ImageButton Upgrade_4;
     public ImageButton Upgrade_5;
 
+    // MainActivity constructor
     public MainActivity() {
 
     }
 
+    // Method called when the activity is created
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout);
 
+        // Initializing various elements
         Taco_tapper = (ImageButton) findViewById(R.id.TT);
         Upgrade_1 = (ImageButton) findViewById(R.id.U1);
         Upgrade_2 = (ImageButton) findViewById(R.id.U2);
@@ -135,20 +143,21 @@ public class MainActivity extends Activity implements OnClickListener {
         });
     }
 
+    // Method to handle button clicks
     @Override
-
     public void onClick(View v) {
         int IDIf= v.getId();
+
+        //Taco Clicked
         if (IDIf==R.id.TT)
         {
-
-
             total_tacos=total_tacos+1;
             total_tacos_display.setText(total_tacos + " Tacos");
             song.start();
             Animation animation=AnimationUtils.loadAnimation(MainActivity.this,R.anim.bounce);
             Taco_tapper.startAnimation(animation);
         }
+        //Upgrade 1 Clicked
         else if (IDIf==R.id.U1)
         {
             if(total_tacos>=Upgrades_1_min){
@@ -165,6 +174,8 @@ public class MainActivity extends Activity implements OnClickListener {
                     timing_handle();
             }
         }
+
+        //upgrade 2 Clicked
         else if (IDIf==R.id.U2)
         {
             if(total_tacos>=Upgrades_2_min){
@@ -180,6 +191,8 @@ public class MainActivity extends Activity implements OnClickListener {
                     timing_handle();
             }
         }
+
+        // Upgrade 3 clicked
         else if (IDIf==R.id.U3)
         {
              if(total_tacos>=Upgrades_3_min){
@@ -195,6 +208,8 @@ public class MainActivity extends Activity implements OnClickListener {
                     timing_handle();
              }
         }
+
+        //Upgrade 4 Clicked
         else if (IDIf==R.id.U4)
         {
             if(total_tacos>=Upgrades_4_min){
@@ -210,6 +225,8 @@ public class MainActivity extends Activity implements OnClickListener {
                     timing_handle();
             }
         }
+
+        //Upgrade 5 Clicked
         else if (IDIf==R.id.U5)
         {
              if(total_tacos>=Upgrades_5_min){
@@ -234,7 +251,7 @@ public class MainActivity extends Activity implements OnClickListener {
         }
 
 
-
+    //handles time logic and constant upgrades
     private void timing_handle(){
        if (rate_handler!=null)
        {
