@@ -170,10 +170,10 @@
 
     <ImageView
         android:id="@+id/imageViewDragon"
-        android:layout_width="84dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="252dp"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="276dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
         android:foreground="@drawable/dragon1"
@@ -267,9 +267,9 @@
         android:layout_width="125dp"
         android:layout_height="31dp"
         android:layout_marginTop="13dp"
-        android:layout_marginEnd="160dp"
+        android:layout_marginEnd="156dp"
         android:text=" Price 10 Tacos"
-        android:textAlignment="textEnd"
+        android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
 
         android:textSize="15sp"
@@ -325,12 +325,13 @@
         app:layout_constraintTop_toTopOf="@+id/U3"
         app:layout_constraintVertical_bias="0.079" />
 
+
     <TextView
         android:id="@+id/UD4"
         android:layout_width="184dp"
         android:layout_height="23dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginEnd="92dp"
         android:text="Price 10000 Tacos"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -339,7 +340,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintVertical_bias="0.132" />
 
 
     <TextView
@@ -347,7 +348,7 @@
         android:layout_width="183dp"
         android:layout_height="20dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="96dp"
+        android:layout_marginEnd="92dp"
         android:text=" Price 100000 Tacos"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -357,7 +358,6 @@
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U5"
         app:layout_constraintVertical_bias="0.365" />
-
 
     <TextView
         android:id="@+id/D1"
