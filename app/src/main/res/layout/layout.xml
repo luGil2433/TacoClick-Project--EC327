@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background">
 
-<!--test-->
+<!--Taco Button-->
     <ImageButton
         android:id="@+id/TT"
         android:layout_width="382dp"
@@ -23,6 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/taco2" />
 
+    <!--Square for upgrade 1-->
     <ImageButton
         android:id="@+id/U1"
         android:layout_width="381dp"
@@ -35,6 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
+    <!--Square for upgrade 2-->
     <ImageButton
         android:id="@+id/U2"
         android:layout_width="381dp"
@@ -47,6 +49,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
+    <!--Square for upgrade 3-->
     <ImageButton
         android:id="@+id/U3"
         android:layout_width="381dp"
@@ -60,6 +63,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
+    <!--Square for upgrade 4-->
     <ImageButton
         android:id="@+id/U4"
         android:layout_width="381dp"
@@ -72,6 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
+    <!--Square for upgrade 5-->
     <ImageButton
         android:id="@+id/U5"
         android:layout_width="381dp"
@@ -86,6 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@drawable/image_frame" />
 
+    <!--Name for upgrade 1-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="178dp"
@@ -99,7 +105,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.991" />
 
-
+    <!--Name for upgrade 2-->
     <ImageView
         android:id="@+id/imageViewPapaLouisName"
         android:layout_width="143dp"
@@ -115,6 +121,7 @@
         app:layout_constraintTop_toTopOf="@+id/U2"
         app:layout_constraintVertical_bias="0.025" />
 
+    <!--Name for upgrade 3-->
     <ImageView
         android:id="@+id/imageViewChikenName"
         android:layout_width="143dp"
@@ -130,6 +137,7 @@
         app:layout_constraintTop_toTopOf="@+id/U3"
         app:layout_constraintVertical_bias="0.014" />
 
+    <!--name for upgrade 4-->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="196dp"
@@ -141,6 +149,7 @@
         app:layout_constraintStart_toStartOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4" />
 
+    <!--name for upgrade 5-->
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="174dp"
@@ -152,8 +161,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U5" />
 
-
-
+    <!--image for upgrade 1-->
     <ImageView
         android:id="@+id/imageViewFlipFlops"
         android:layout_width="37dp"
@@ -167,6 +175,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
+    <!--image for upgrade 2-->
     <ImageView
         android:id="@+id/imageViewPapaLouis"
         android:layout_width="119dp"
@@ -180,6 +189,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
+    <!--image for upgrade 3-->
     <ImageView
         android:id="@+id/imageViewChiken"
         android:layout_width="50dp"
@@ -194,6 +204,7 @@
         app:layout_constraintTop_toTopOf="@+id/U3"
         app:layout_constraintVertical_bias="0.047" />
 
+    <!--image for upgrade 4-->
     <ImageView
         android:id="@+id/imageViewPinaple"
         android:layout_width="52dp"
@@ -207,6 +218,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U3" />
 
+    <!--image for upgrade 5-->
     <ImageView
         android:id="@+id/imageViewDragon"
         android:layout_width="52dp"
@@ -220,7 +232,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U4" />
 
-
+    <!--Square for score-->
     <ImageView
         android:id="@+id/imageViewFrameMain"
         android:layout_width="403dp"
@@ -236,7 +248,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
+    <!--main score-->
     <TextView
         android:id="@+id/TCD"
         android:layout_width="365dp"
@@ -252,6 +264,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--secondary score-->
     <TextView
         android:id="@+id/RD"
         android:layout_width="365dp"
@@ -266,7 +279,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+    <!--price for upgrade 1-->
     <TextView
         android:id="@+id/UD1"
         android:layout_width="137dp"
@@ -283,6 +296,7 @@
         app:layout_constraintTop_toTopOf="@+id/U1"
         app:layout_constraintVertical_bias="0.091" />
 
+    <!--price for upgrade 2-->
     <TextView
         android:id="@+id/UD2"
         android:layout_width="150dp"
@@ -299,6 +313,7 @@
         app:layout_constraintTop_toTopOf="@+id/U2"
         app:layout_constraintVertical_bias="0.053" />
 
+    <!--price for upgrade 3-->
     <TextView
         android:id="@+id/UD3"
         android:layout_width="151dp"
@@ -316,6 +331,7 @@
         app:layout_constraintVertical_bias="0.07" />
 
 
+    <!--price for upgrade 4-->
     <TextView
         android:id="@+id/UD4"
         android:layout_width="184dp"
@@ -332,7 +348,7 @@
         app:layout_constraintTop_toTopOf="@+id/U4"
         app:layout_constraintVertical_bias="0.1205" />
 
-
+    <!--price for upgrade 5-->
     <TextView
         android:id="@+id/UD5"
         android:layout_width="183dp"
@@ -349,13 +365,14 @@
         app:layout_constraintTop_toTopOf="@+id/U5"
         app:layout_constraintVertical_bias="0.38" />
 
+    <!--benefits for upgrade 1-->
     <TextView
         android:id="@+id/D1"
         android:layout_width="83dp"
         android:layout_height="39dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:text="+10 \n Tacos/Sec"
+        android:text="+1 \n Tacos/Sec"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
@@ -363,6 +380,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
+    <!--benefits for upgrade 2-->
     <TextView
         android:id="@+id/D2"
         android:layout_width="85dp"
@@ -377,7 +395,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
-
+    <!--benefits for upgrade 3-->
     <TextView
         android:id="@+id/D3"
         android:layout_width="85dp"
@@ -392,6 +410,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2" />
 
+    <!--benefits for upgrade 4-->
     <TextView
         android:id="@+id/D4"
         android:layout_width="85dp"
@@ -406,6 +425,7 @@
         app:layout_constraintEnd_toEndOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3" />
 
+    <!--benefits for upgrade 5-->
     <TextView
         android:id="@+id/D5"
         android:layout_width="85dp"
@@ -421,7 +441,7 @@
         app:layout_constraintTop_toTopOf="@+id/U4" />
 
 
-
+    <!--counter for upgrade 1-->
     <TextView
         android:id="@+id/UDC1"
         android:layout_width="53dp"
@@ -436,6 +456,7 @@
         app:layout_constraintStart_toStartOf="@+id/U1"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
+    <!--counter for upgrade 2-->
     <TextView
         android:id="@+id/UDC2"
         android:layout_width="51dp"
@@ -450,6 +471,7 @@
         app:layout_constraintStart_toStartOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2" />
 
+    <!--counter for upgrade 3-->
     <TextView
         android:id="@+id/UDC3"
         android:layout_width="53dp"
@@ -464,6 +486,7 @@
         app:layout_constraintStart_toStartOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3" />
 
+    <!--counter for upgrade 4-->
     <TextView
         android:id="@+id/UDC4"
         android:layout_width="46dp"
@@ -478,6 +501,7 @@
         app:layout_constraintStart_toStartOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4" />
 
+    <!--counter for upgrade 5-->
     <TextView
         android:id="@+id/UDC5"
         android:layout_width="45dp"
@@ -492,6 +516,7 @@
         app:layout_constraintStart_toStartOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U5" />
 
+    <!--black line for divider-->
     <ImageView
         android:id="@+id/imageViewBlackLine"
         android:layout_width="473dp"
