@@ -43,7 +43,7 @@
         android:layout_width="174dp"
         android:layout_height="26dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginEnd="104dp"
         android:contentDescription="@string/test"
         android:foreground="@drawable/dragonname"
         app:layout_constraintEnd_toEndOf="@+id/U5"
@@ -65,7 +65,8 @@
         android:layout_width="381dp"
         android:layout_height="71dp"
         android:layout_marginBottom="4dp"
-        android:contentDescription="@string/test"        android:foreground="@drawable/image_frame"
+        android:contentDescription="@string/test"
+        android:foreground="@drawable/image_frame"
         app:layout_constraintBottom_toTopOf="@+id/U4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.433"
@@ -102,7 +103,7 @@
         android:layout_width="37dp"
         android:layout_height="60dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="296dp"
+        android:layout_marginEnd="288dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
         android:foreground="@drawable/flipflop"
@@ -115,7 +116,7 @@
         android:layout_width="119dp"
         android:layout_height="105dp"
         android:layout_marginTop="56dp"
-        android:layout_marginEnd="244dp"
+        android:layout_marginEnd="232dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
         android:foreground="@drawable/gandd"
@@ -123,11 +124,12 @@
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
+
     <ImageView
         android:id="@+id/imageViewPapaLouisName"
         android:layout_width="143dp"
         android:layout_height="31dp"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="132dp"
         android:layout_marginTop="6dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
@@ -136,14 +138,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2"
-        app:layout_constraintVertical_bias="0.028" />
-
+        app:layout_constraintVertical_bias="0.025" />
 
     <ImageView
         android:id="@+id/imageViewChiken"
         android:layout_width="50dp"
         android:layout_height="53dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="64dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
         android:foreground="@drawable/chiken4"
@@ -172,8 +173,8 @@
         android:id="@+id/imageViewDragon"
         android:layout_width="52dp"
         android:layout_height="54dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="276dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="268dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
         android:foreground="@drawable/dragon1"
@@ -242,20 +243,20 @@
         android:id="@+id/imageView"
         android:layout_width="178dp"
         android:layout_height="31dp"
-        android:layout_marginStart="84dp"
+        android:layout_marginStart="104dp"
         android:layout_marginBottom="23dp"
         android:contentDescription="@string/test"
         android:foreground="@drawable/flipflopname"
         app:layout_constraintBottom_toBottomOf="@+id/U1"
         app:layout_constraintStart_toStartOf="@+id/U1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.991" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="196dp"
         android:layout_height="23dp"
-        android:layout_marginStart="84dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="12dp"
         android:contentDescription="@string/test"
         android:foreground="@drawable/pinaplename"
@@ -264,12 +265,12 @@
 
     <TextView
         android:id="@+id/UD1"
-        android:layout_width="125dp"
-        android:layout_height="31dp"
+        android:layout_width="137dp"
+        android:layout_height="30dp"
         android:layout_marginTop="13dp"
-        android:layout_marginEnd="156dp"
+        android:layout_marginEnd="128dp"
         android:text=" Price 10 Tacos"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -283,25 +284,25 @@
         android:layout_width="150dp"
         android:layout_height="24dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="117dp"
+        android:layout_marginEnd="100dp"
         android:text="Price 100 Tacos "
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.053" />
 
     <TextView
-        android:id="@+id/D2"
-        android:layout_width="120dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="20dp"
-        android:text="+ 01 Tacos/Sec"
-        android:textAlignment="textEnd"
+        android:id="@+id/D1"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="+10 \n Tacos/Sec"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -309,20 +310,35 @@
         app:layout_constraintTop_toTopOf="@+id/U1" />
 
     <TextView
+        android:id="@+id/D2"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:text="+10 \n Tacos/Sec"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/U1"
+        app:layout_constraintTop_toTopOf="@+id/U1" />
+
+
+    <TextView
         android:id="@+id/UD3"
         android:layout_width="151dp"
         android:layout_height="22dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="128dp"
+        android:layout_marginEnd="104dp"
         android:text="Price 1000 Tacos"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.07" />
 
 
     <TextView
@@ -330,16 +346,16 @@
         android:layout_width="184dp"
         android:layout_height="23dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="92dp"
+        android:layout_marginEnd="84dp"
         android:text="Price 10000 Tacos"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U4"
         app:layout_constraintTop_toTopOf="@+id/U4"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.1205" />
 
 
     <TextView
@@ -347,65 +363,53 @@
         android:layout_width="183dp"
         android:layout_height="20dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="92dp"
+        android:layout_marginEnd="84dp"
         android:text=" Price 100000 Tacos"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/U5"
         app:layout_constraintTop_toTopOf="@+id/U5"
-        app:layout_constraintVertical_bias="0.365" />
-
-    <TextView
-        android:id="@+id/D1"
-        android:layout_width="120dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="20dp"
-        android:text="+ 01 Tacos/Sec"
-        android:textAlignment="textEnd"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/U1"
-        app:layout_constraintTop_toTopOf="@+id/U1" />
+        app:layout_constraintVertical_bias="0.38" />
 
     <TextView
         android:id="@+id/D3"
-        android:layout_width="120dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="20dp"
-        android:text="+ 01 Tacos/Sec"
-        android:textAlignment="textEnd"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:text="+100 \n Tacos/Sec"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/U2"
         app:layout_constraintTop_toTopOf="@+id/U2" />
+
     <TextView
         android:id="@+id/D4"
-        android:layout_width="120dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="20dp"
-        android:text="+ 01 Tacos/Sec"
-        android:textAlignment="textEnd"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:text="+1000 \n Tacos/Sec"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/U3"
         app:layout_constraintTop_toTopOf="@+id/U3" />
+
     <TextView
         android:id="@+id/D5"
-        android:layout_width="120dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="20dp"
-        android:text="+ 01 Tacos/Sec"
-        android:textAlignment="textEnd"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:text="+10 \n Tacos/Sec"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -417,7 +421,7 @@
         android:layout_width="52dp"
         android:layout_height="65dp"
         android:layout_marginTop="76dp"
-        android:layout_marginEnd="276dp"
+        android:layout_marginEnd="268dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/test"
         android:foreground="@drawable/pinaple2"
@@ -427,11 +431,11 @@
 
     <TextView
         android:id="@+id/UDC1"
-        android:layout_width="40dp"
-        android:layout_height="51dp"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
-        android:text=" 0"
+        android:text="0"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
@@ -441,11 +445,11 @@
 
     <TextView
         android:id="@+id/UDC2"
-        android:layout_width="40dp"
-        android:layout_height="51dp"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
-        android:text=" 0"
+        android:text="0"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
@@ -455,11 +459,11 @@
 
     <TextView
         android:id="@+id/UDC3"
-        android:layout_width="40dp"
-        android:layout_height="51dp"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
-        android:text=" 0"
+        android:text="0"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
@@ -469,8 +473,8 @@
 
     <TextView
         android:id="@+id/UDC4"
-        android:layout_width="40dp"
-        android:layout_height="51dp"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
         android:text=" 0"
@@ -483,11 +487,11 @@
 
     <TextView
         android:id="@+id/UDC5"
-        android:layout_width="40dp"
-        android:layout_height="51dp"
+        android:layout_width="45dp"
+        android:layout_height="36dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
-        android:text=" 0"
+        android:text="0"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
