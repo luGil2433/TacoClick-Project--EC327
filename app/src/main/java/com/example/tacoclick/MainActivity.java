@@ -18,11 +18,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
     private int total_tacos;
     private int running_upgrades;
-    private int update1_count = 0;
-    private int update2_count = 0;
-    private int update3_count = 0;
-    private int update4_count = 0;
-    private int update5_count = 0;
+
 
     private static  int Upgrades_1_min =10;
     private static  int Upgrades_2_min =100;
@@ -159,11 +155,11 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_1_min;
                     running_upgrades=running_upgrades +5;
                     Upgrades_1_min=Upgrades_1_min+10;
-                    update1_count = update1_count +1;
+
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display1.setText("Price "+ Upgrades_1_min+ " Tacos");
-                    upgrade_display1_count.setText(update1_count);
+                    upgrade_display1_count.setText(Upgrades_1_min/10);
 
                     timing_handle();
             }
@@ -174,11 +170,11 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_2_min;
                     running_upgrades=running_upgrades +50;
                     Upgrades_2_min=Upgrades_2_min+100;
-                    update2_count = update2_count +1;
+
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display2.setText("Price "+Upgrades_2_min+ " Tacos");
-                    upgrade_display2_count.setText(update2_count);
+                    upgrade_display2_count.setText(Upgrades_2_min/100);
 
                     timing_handle();
             }
@@ -189,11 +185,11 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_3_min;
                     running_upgrades=running_upgrades +500;
                     Upgrades_3_min=Upgrades_3_min+1000;
-                    update3_count = update3_count +1;
+
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display3.setText("Price "+Upgrades_3_min+ " Tacos");
-                    upgrade_display3_count.setText(update3_count);
+                    upgrade_display3_count.setText(Upgrades_3_min/1000);
 
                     timing_handle();
              }
@@ -204,11 +200,11 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_4_min;
                     running_upgrades=running_upgrades +5000;
                     Upgrades_4_min=Upgrades_4_min+10000;
-                    update4_count = update4_count +1;
+
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display4.setText("Price "+Upgrades_4_min+ " Tacos");
-                    upgrade_display4_count.setText(update4_count);
+                    upgrade_display4_count.setText(Upgrades_4_min/10000);
 
                     timing_handle();
             }
@@ -219,11 +215,11 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos=total_tacos-Upgrades_5_min;
                     running_upgrades=running_upgrades +50000;
                     Upgrades_5_min=Upgrades_5_min+100000;
-                    update5_count = update5_count +1;
+
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display5.setText("Price "+Upgrades_5_min+ " Tacos");
-                    upgrade_display5_count.setText(update5_count);
+                    upgrade_display5_count.setText(Upgrades_5_min/100000);
 
                     timing_handle();
              }
