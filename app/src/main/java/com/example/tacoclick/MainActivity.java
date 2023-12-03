@@ -163,7 +163,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display1.setText("Price "+ Upgrades_1_min+ " Tacos");
-                    upgrade_display1_count.setText((Upgrades_1_min/update1_count*10)-10);
+                    upgrade_display1_count.setText(update1_count);
 
                     timing_handle();
             }
@@ -178,7 +178,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display2.setText("Price "+Upgrades_2_min+ " Tacos");
-                    upgrade_display2_count.setText((Upgrades_2_min/update1_count*100)-100);
+                    upgrade_display2_count.setText(update2_count);
 
                     timing_handle();
             }
@@ -193,7 +193,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display3.setText("Price "+Upgrades_3_min+ " Tacos");
-                    upgrade_display3_count.setText((Upgrades_3_min/update3_count*1000)-1000);
+                    upgrade_display3_count.setText(update3_count);
 
                     timing_handle();
              }
@@ -208,7 +208,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display4.setText("Price "+Upgrades_4_min+ " Tacos");
-                    upgrade_display4_count.setText((Upgrades_4_min/update4_count*10000)-10000);
+                    upgrade_display4_count.setText(update4_count);
 
                     timing_handle();
             }
@@ -223,7 +223,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     total_tacos_display.setText(total_tacos + " Tacos");
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display5.setText("Price "+Upgrades_5_min+ " Tacos");
-                    upgrade_display5_count.setText((Upgrades_5_min/update5_count*100000)-100000);
+                    upgrade_display5_count.setText(update5_count);
 
                     timing_handle();
              }
