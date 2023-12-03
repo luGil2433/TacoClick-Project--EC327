@@ -156,6 +156,30 @@ public class MainActivity extends Activity implements OnClickListener {
             song.start();
             Animation animation=AnimationUtils.loadAnimation(MainActivity.this,R.anim.bounce);
             Taco_tapper.startAnimation(animation);
+            if(total_tacos < Upgrades_1_min){
+                upgrade_display1_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display1_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_2_min){
+                upgrade_display2_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display2_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_3_min){
+                upgrade_display3_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display3_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_4_min){
+                upgrade_display4_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display4_count.setTextColor(0xff00ff00);}
+
+            if(total_tacos < Upgrades_5_min){
+                upgrade_display5_count.setTextColor(0xffff0000);}
+            else{
+                upgrade_display5_count.setTextColor(0xff00ff00);}
         }
         //Upgrade 1 Clicked
         else if (IDIf==R.id.U1)
@@ -169,7 +193,10 @@ public class MainActivity extends Activity implements OnClickListener {
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display1.setText("Price "+ Upgrades_1_min+ " Tacos");
                     upgrade_display1_count.setText(""+(Upgrades_1_min-10)/10);
-
+                if(total_tacos < Upgrades_1_min){
+                    upgrade_display1_count.setTextColor(0xffff0000);}
+                else{
+                    upgrade_display1_count.setTextColor(0xff00ff00);}
 
                     timing_handle();
             }
@@ -187,7 +214,10 @@ public class MainActivity extends Activity implements OnClickListener {
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display2.setText("Price "+Upgrades_2_min+ " Tacos");
                     upgrade_display2_count.setText(""+(Upgrades_2_min-100)/100);
-
+                if(total_tacos < Upgrades_2_min){
+                    upgrade_display2_count.setTextColor(0xffff0000);}
+                else{
+                    upgrade_display2_count.setTextColor(0xff00ff00);}
                     timing_handle();
             }
         }
@@ -204,7 +234,10 @@ public class MainActivity extends Activity implements OnClickListener {
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display3.setText("Price "+Upgrades_3_min+ " Tacos");
                     upgrade_display3_count.setText(""+(Upgrades_3_min-1000)/1000);
-
+                 if(total_tacos < Upgrades_3_min){
+                     upgrade_display3_count.setTextColor(0xffff0000);}
+                 else{
+                     upgrade_display3_count.setTextColor(0xff00ff00);}
                     timing_handle();
              }
         }
@@ -221,7 +254,10 @@ public class MainActivity extends Activity implements OnClickListener {
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display4.setText("Price "+Upgrades_4_min+ " Tacos");
                     upgrade_display4_count.setText(""+(Upgrades_4_min-10000)/10000);
-
+                if(total_tacos < Upgrades_4_min){
+                    upgrade_display4_count.setTextColor(0xffff0000);}
+                else{
+                    upgrade_display4_count.setTextColor(0xff00ff00);}
                     timing_handle();
             }
         }
@@ -238,7 +274,10 @@ public class MainActivity extends Activity implements OnClickListener {
                     rate_display.setText(running_upgrades/5 + " Tacos per second");
                     upgrade_display5.setText("Price "+Upgrades_5_min+ " Tacos");
                     upgrade_display5_count.setText(""+(Upgrades_5_min-100000)/100000);
-
+                 if(total_tacos < Upgrades_5_min){
+                     upgrade_display5_count.setTextColor(0xffff0000);}
+                 else{
+                     upgrade_display5_count.setTextColor(0xff00ff00);}
                     timing_handle();
              }
         }
