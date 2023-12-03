@@ -427,7 +427,7 @@
 
     <TextView
         android:id="@+id/UDC1"
-        android:layout_width="35dp"
+        android:layout_width="40dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
@@ -441,7 +441,7 @@
 
     <TextView
         android:id="@+id/UDC2"
-        android:layout_width="35dp"
+        android:layout_width="40dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
@@ -455,7 +455,7 @@
 
     <TextView
         android:id="@+id/UDC3"
-        android:layout_width="35dp"
+        android:layout_width="40dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
@@ -469,7 +469,7 @@
 
     <TextView
         android:id="@+id/UDC4"
-        android:layout_width="35dp"
+        android:layout_width="40dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
@@ -483,7 +483,7 @@
 
     <TextView
         android:id="@+id/UDC5"
-        android:layout_width="35dp"
+        android:layout_width="40dp"
         android:layout_height="51dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="14dp"
