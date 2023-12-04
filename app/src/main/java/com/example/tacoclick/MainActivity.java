@@ -140,8 +140,35 @@ public class MainActivity extends Activity implements OnClickListener {
                     song2.start();
                 }
             }
+
         });
+
+
     }
+    @Override
+    public void onPause(){
+        super.onPause();
+        if(song2.isPlaying()){
+            song2.pause();
+        }
+        if(song3.isPlaying()){
+            song3.pause();
+        }
+        if(song4.isPlaying()){
+            song4.pause();
+        }
+        if(song5.isPlaying()){
+            song5.pause();
+        }
+    }
+    @Override
+    public void onResume(){
+        super.onResume();
+        if(!song2.isPlaying()||!song3.isPlaying()||!song4.isPlaying()||!song5.isPlaying()){
+            song2.start();
+        }
+    }
+
 
     // Method to handle button clicks
     @Override
